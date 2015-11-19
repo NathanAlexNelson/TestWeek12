@@ -1,11 +1,18 @@
 
 public class Dice {
 	private int Wins, PlayG;
+
+	private static int OneThrow; //I re-used the one throw from a previous lesson to track the number each dice rolled.
+	public static int OneThrow(){ // I then created a static int that constructs the random numbers that are held onto by the method of Dice.
+	OneThrow = 1 + (int) (Math.random() * 6);
+	return OneThrow;
+	}
+	
 	public int Throw (int dices){
 		int DTotal = 0;
 		
 		for (int x = 1; x<=dices; x++){
-			int D = 1 + (int) (Math.random() * 6);
+			int D = Dice.OneThrow();
 			DTotal = DTotal + D; // Dice rolls are saved here to create the sum of dice.
 		}
 		return DTotal; // The DTotal is the sum of all the dice.

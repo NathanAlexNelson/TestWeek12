@@ -51,8 +51,8 @@ public class TestWeek12 {
 		
 		PlayG = Roll.getPlayed() + PlayG;
 		
-		System.out.println(PlayG);
-		System.out.println(c);
+		System.out.println("Games Played: " + PlayG);
+		System.out.println("Round Number: " + (c + 1));
 		
 		
 
@@ -79,6 +79,7 @@ public class TestWeek12 {
 		/*System.out.println(1*dices);
 		 * System.out.println(3*dices);*/
 		c++;
+		input.close();
 		}
 	}
 }
