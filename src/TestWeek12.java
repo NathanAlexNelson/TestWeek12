@@ -7,6 +7,11 @@ public class TestWeek12 {
 		
 		/*The ranges in the game should be 1-3, 4-6, 2-6, 7-12, 3-9, 10-18*/
 		
+		//To prove the ranges of the game use the following code
+		
+
+		
+		
 		int c=0;
 		int dices;
 		int DSum;
@@ -71,6 +76,8 @@ public class TestWeek12 {
 			n = 1;
 			System.out.print(Arrays.toString(Scoreboard));
 		}
+		/*System.out.println(1*dices);
+		 * System.out.println(3*dices);*/
 		c++;
 		}
 	}
