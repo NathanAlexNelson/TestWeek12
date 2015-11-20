@@ -74,12 +74,12 @@ public class TestWeek12 {
 		else{
 			System.out.println("You have chosen to quit playing...");
 			n = 1;
+			System.out.print("Your guesses each round were:");
 			System.out.print(Arrays.toString(Scoreboard));
 		}
 		/*System.out.println(1*dices);
 		 * System.out.println(3*dices);*/
 		c++;
-		input.close();
 		}
 	}
 }
