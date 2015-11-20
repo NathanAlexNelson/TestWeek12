@@ -7,10 +7,6 @@ public class TestWeek12 {
 		
 		/*The ranges in the game should be 1-3, 4-6, 2-6, 7-12, 3-9, 10-18*/
 		
-		//To prove the ranges of the game use the following code
-		
-
-		
 		
 		int c=0;
 		int dices;
@@ -54,8 +50,6 @@ public class TestWeek12 {
 		System.out.println("Games Played: " + PlayG);
 		System.out.println("Round Number: " + (c + 1));
 		
-		
-
 		Scoreboard[c] = Roll.getGuess(Guess);
 		
 		System.out.println("Your guess this round: " + Scoreboard[c]);
@@ -77,6 +71,7 @@ public class TestWeek12 {
 			System.out.print("Your guesses each round were:");
 			System.out.print(Arrays.toString(Scoreboard));
 		}
+		//To prove the ranges of the game use the following code
 		/*System.out.println(1*dices);
 		 * System.out.println(3*dices);*/
 		c++;
